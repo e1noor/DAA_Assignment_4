@@ -1,0 +1,8 @@
+{
+  "seed": 41026,
+  "small_cases": 1771,
+  "mixed_jsonl_responses": 3542,
+  "large_cases": 14,
+  "elapsed_seconds": 3.1105600999999297,
+  "result": "PASS"
+}

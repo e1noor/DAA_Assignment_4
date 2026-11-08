@@ -1,0 +1,245 @@
+{
+  "seed": 41026,
+  "python": "3.13.5 (main, Jun 12 2025, 12:42:35) [MSC v.1943 64 bit (AMD64)]",
+  "os": "Windows-11-10.0.22631-SP0",
+  "cpu": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+  "ram": "Not available: Windows hardware query denied access",
+  "scope": "Direct function call including preprocessing and output allocation; excludes JSON, startup and validation",
+  "warmup": "One correctness call per algorithm and input; no explicit JIT configuration",
+  "rows": [
+    {
+      "case": "random",
+      "n": 500,
+      "m": 25,
+      "algorithm": "naive",
+      "milliseconds": [
+        0.0275,
+        0.0266,
+        0.0259
+      ],
+      "median_ms": 0.0266,
+      "correct": true
+    },
+    {
+      "case": "random",
+      "n": 500,
+      "m": 25,
+      "algorithm": "kmp",
+      "milliseconds": [
+        0.0247,
+        0.0239,
+        0.0229
+      ],
+      "median_ms": 0.0239,
+      "correct": true
+    },
+    {
+      "case": "random",
+      "n": 500,
+      "m": 25,
+      "algorithm": "rk",
+      "milliseconds": [
+        0.0498,
+        0.0491,
+        0.1016
+      ],
+      "median_ms": 0.0498,
+      "correct": true
+    },
+    {
+      "case": "random",
+      "n": 1500,
+      "m": 75,
+      "algorithm": "naive",
+      "milliseconds": [
+        0.0855,
+        0.0832,
+        0.0828
+      ],
+      "median_ms": 0.0832,
+      "correct": true
+    },
+    {
+      "case": "random",
+      "n": 1500,
+      "m": 75,
+      "algorithm": "kmp",
+      "milliseconds": [
+        0.0739,
+        0.0726,
+        0.073
+      ],
+      "median_ms": 0.073,
+      "correct": true
+    },
+    {
+      "case": "random",
+      "n": 1500,
+      "m": 75,
+      "algorithm": "rk",
+      "milliseconds": [
+        0.1579,
+        0.1533,
+        0.1468
+      ],
+      "median_ms": 0.1533,
+      "correct": true
+    },
+    {
+      "case": "random",
+      "n": 3000,
+      "m": 150,
+      "algorithm": "naive",
+      "milliseconds": [
+        0.2323,
+        0.1936,
+        0.1763
+      ],
+      "median_ms": 0.1936,
+      "correct": true
+    },
+    {
+      "case": "random",
+      "n": 3000,
+      "m": 150,
+      "algorithm": "kmp",
+      "milliseconds": [
+        0.1461,
+        0.1453,
+        0.1496
+      ],
+      "median_ms": 0.1461,
+      "correct": true
+    },
+    {
+      "case": "random",
+      "n": 3000,
+      "m": 150,
+      "algorithm": "rk",
+      "milliseconds": [
+        0.3047,
+        0.3143,
+        0.318
+      ],
+      "median_ms": 0.3143,
+      "correct": true
+    },
+    {
+      "case": "repetitive",
+      "n": 500,
+      "m": 25,
+      "algorithm": "naive",
+      "milliseconds": [
+        0.4842,
+        0.5208,
+        0.4742
+      ],
+      "median_ms": 0.4842,
+      "correct": true
+    },
+    {
+      "case": "repetitive",
+      "n": 500,
+      "m": 25,
+      "algorithm": "kmp",
+      "milliseconds": [
+        0.0501,
+        0.0481,
+        0.0491
+      ],
+      "median_ms": 0.0491,
+      "correct": true
+    },
+    {
+      "case": "repetitive",
+      "n": 500,
+      "m": 25,
+      "algorithm": "rk",
+      "milliseconds": [
+        0.4682,
+        0.4509,
+        0.4468
+      ],
+      "median_ms": 0.4509,
+      "correct": true
+    },
+    {
+      "case": "repetitive",
+      "n": 1500,
+      "m": 75,
+      "algorithm": "naive",
+      "milliseconds": [
+        3.7244,
+        3.5557,
+        3.7013
+      ],
+      "median_ms": 3.7013,
+      "correct": true
+    },
+    {
+      "case": "repetitive",
+      "n": 1500,
+      "m": 75,
+      "algorithm": "kmp",
+      "milliseconds": [
+        0.1671,
+        0.1692,
+        0.1574
+      ],
+      "median_ms": 0.1671,
+      "correct": true
+    },
+    {
+      "case": "repetitive",
+      "n": 1500,
+      "m": 75,
+      "algorithm": "rk",
+      "milliseconds": [
+        6.4663,
+        5.216,
+        4.2815
+      ],
+      "median_ms": 5.216,
+      "correct": true
+    },
+    {
+      "case": "repetitive",
+      "n": 3000,
+      "m": 150,
+      "algorithm": "naive",
+      "milliseconds": [
+        17.4773,
+        15.5587,
+        16.5086
+      ],
+      "median_ms": 16.5086,
+      "correct": true
+    },
+    {
+      "case": "repetitive",
+      "n": 3000,
+      "m": 150,
+      "algorithm": "kmp",
+      "milliseconds": [
+        0.3422,
+        0.347,
+        0.3386
+      ],
+      "median_ms": 0.3422,
+      "correct": true
+    },
+    {
+      "case": "repetitive",
+      "n": 3000,
+      "m": 150,
+      "algorithm": "rk",
+      "milliseconds": [
+        15.4171,
+        18.4913,
+        20.2772
+      ],
+      "median_ms": 18.4913,
+      "correct": true
+    }
+  ]
+}
